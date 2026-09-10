@@ -7,6 +7,7 @@ formulario.addEventListener("submit", function(evento) {
     
     const nome = document.querySelector("#nome").value;
     const servico = document.querySelector("#servico").value;
+    const servicoTexto = document.querySelector("#servico").selectedOptions[0].text;
     const data = document.querySelector("#data").value;
     const horario = document.querySelector("#horario").value;
     
@@ -19,7 +20,7 @@ formulario.addEventListener("submit", function(evento) {
 
 const novoAgendamento = document.createElement("p");
 
-novoAgendamento.textContent = `${nome} - ${servico} - ${data} às ${horario}`;
+novoAgendamento.textContent = `${nome} - ${servicoTexto} - ${data} às ${horario}`;
 
 listaAgendamentos.appendChild(novoAgendamento);
     
