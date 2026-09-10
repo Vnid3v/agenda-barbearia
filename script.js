@@ -14,4 +14,13 @@ formulario.addEventListener("submit", function(evento) {
     console.log("Serviço:", servico);
     console.log("Data:", data);
     console.log("Horário:", horario);
+
+    const listaAgendamentos = document.querySelector("#lista-agendamentos");
+
+const novoAgendamento = document.createElement("p");
+
+novoAgendamento.textContent = `${nome} - ${servico} - ${data} às ${horario}`;
+
+listaAgendamentos.appendChild(novoAgendamento);
+    
 });
