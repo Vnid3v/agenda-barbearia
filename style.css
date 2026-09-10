@@ -34,3 +34,8 @@ select {
     margin-top: 5px;
     box-sizing: border-box;
 }
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
