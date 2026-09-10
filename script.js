@@ -4,6 +4,8 @@ const formulario = document.querySelector("form");
 
 formulario.addEventListener("submit", function(evento) {
     evento.preventDefault();
-
-    console.log("O formulário foi enviado!");
+    
+    const nome = document.querySelector("#nome").value;
+    
+    console.log(nome);
 });
