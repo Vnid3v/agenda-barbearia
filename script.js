@@ -28,7 +28,12 @@ formulario.addEventListener("submit", function(evento) {
     const novoAgendamento = document.createElement("div");
     novoAgendamento.classList.add("agendamento");
 
-    novoAgendamento.textContent = `${nome} - ${servicoTexto} - ${dataFormatada} às ${horario}`;
+    novoAgendamento.innerHTML = `
+    <strong>${nome}</strong><br>
+    ${servicoTexto}<br>
+    📅 ${dataFormatada}<br>
+    🕒 ${horario}
+`;
 
     listaAgendamentos.appendChild(novoAgendamento);
     
