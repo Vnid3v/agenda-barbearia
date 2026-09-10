@@ -25,7 +25,8 @@ formulario.addEventListener("submit", function(evento) {
 
     const listaAgendamentos = document.querySelector("#lista-agendamentos");
 
-    const novoAgendamento = document.createElement("p");
+    const novoAgendamento = document.createElement("div");
+    novoAgendamento.classList.add("agendamento");
 
     novoAgendamento.textContent = `${nome} - ${servicoTexto} - ${dataFormatada} às ${horario}`;
 
