@@ -13,6 +13,11 @@ formulario.addEventListener("submit", function(evento) {
     const dataFormatada = `${partesData[2]}/${partesData[1]}/${partesData[0]}`;
     const horario = document.querySelector("#horario").value;
     
+    if (nome === "" || data === "" || horario === "") {
+        alert("Por favor, preencha todos os campos.");
+        return;
+}
+    
     console.log("Nome:", nome);
     console.log("Serviço:", servico);
     console.log("Data:", data);
