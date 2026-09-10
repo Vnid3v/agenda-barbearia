@@ -54,3 +54,12 @@ button {
 button:hover {
     background-color: #444;
 }
+
+.agendamento {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: left;
+    border-left: 4px solid #222;
+}
