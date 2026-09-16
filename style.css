@@ -63,3 +63,8 @@ button:hover {
     text-align: left;
     border-left: 4px solid #222;
 }
+
+.cabecalho img {
+    width: 120px;
+    height: auto;
+}
