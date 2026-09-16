@@ -1,9 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(
+        180deg,
+        #0d0d0d 0%,
+        #181818 45%,
+        #252525 100%
+    );
     margin: 0;
-    padding: 40px;
+    padding: 40px 20px;
     text-align: center;
+    min-height: 100vh;
 }
 
 h1 {
