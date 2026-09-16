@@ -1,4 +1,4 @@
-# Agenda Barbearia
+# AgroBarber
 sistema de agenda para uma barbearia.
 
 ## Sobre o projeto
